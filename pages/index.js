@@ -1,6 +1,7 @@
+import { Experience } from "../components/Experience"
 import { Layout } from "../components/Layout"
 import { Skills } from "../components/Skills"
-import { skillsProfile } from "../profile"
+import { experienceProfile, skillsProfile } from "../profile"
 
 const Index = () => {
     return (
@@ -43,6 +44,13 @@ const Index = () => {
                     <div className="card bg-light">
                         <div className="card-body">
                             <h1>Experience</h1>
+                            <ul>
+                                {
+                                    experienceProfile.map((experience) => (
+                                        <Experience key={experience.empresa}  experience={experience} />
+                                    ))
+                                }
+                            </ul>
                         </div>
                     </div>
                 </div>

@@ -20,3 +20,21 @@ export const skillsProfile = [
         percentage: 80
     },
 ]
+
+export const experienceProfile = [
+    {
+        empresa: "Ecloud Solutions",
+        periodo: "2020-Actualidad",
+        rol: "Frontend Developer - Magento2, Shopify, Vtex y VtexIO."
+    },
+    {
+        empresa: "Freelance Frontend",
+        periodo: "2013-Actualidad",
+        rol: "Frontend Developer."
+    },
+    {
+        empresa: "Heredia Estudio",
+        periodo: "2013-2015",
+        rol: "Diseño y maquetacion web."
+    },
+]

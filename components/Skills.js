@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const Skills = ({skill}) => {
 
     const { skill:name, percentage } = skill;
