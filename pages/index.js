@@ -1,4 +1,6 @@
 import { Layout } from "../components/Layout"
+import { Skills } from "../components/Skills"
+import { skillsProfile } from "../profile"
 
 const Index = () => {
     return (
@@ -22,7 +24,29 @@ const Index = () => {
                 </div> 
             </header>
 
+            <div className="row py-2">
+                <div className="col-md-4">
+                    <div className="card bg-light">
+                        <div className="card-body">
+                            <h1>Skills</h1>
 
+                            {
+                                skillsProfile.map((skill) => (
+                                    <Skills key={skill.skill} skill={skill}/>
+                                ))
+                            }
+                            
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-8">
+                    <div className="card bg-light">
+                        <div className="card-body">
+                            <h1>Experience</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </Layout>
     )
 }
