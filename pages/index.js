@@ -12,7 +12,7 @@ const Index = () => {
                     <div className="card card-body bg-secondary text-light">
                         <div className="row">
                             <div className="col-md-4 text-center">
-                                <img src="https://picsum.photos/200" alt="Mirco Martin" className="img-fluid"/>
+                                <img src="/assets/img/profile.jpg" alt="Mirco Martin" className="img-fluid"/>
                             </div>
                             <div className="col-md-8">
                                 <h1>Mirco Martin</h1>
